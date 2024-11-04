@@ -1,0 +1,14 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Cambiarse al modo claro
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiarse al modo oscuro
+
+
