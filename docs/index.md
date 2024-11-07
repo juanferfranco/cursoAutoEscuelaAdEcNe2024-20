@@ -42,7 +42,7 @@ Proponemos tres objetivos fundamentales para el curso:
 El curso se estructurará utilizando micro challenges (personalizados a cada profesor), alineados 
 con las tres fases del marco Challenge Based Learning (CBL): Engagement (Compromiso), Investigation (Investigación) y Action (Acción). Cada fase incluirá actividades específicas para asegurar que los profesores logren los objetivos del curso.
 
-Se esperan estos productos al finalizar el curso:
+Se esperan estos productos durante el curso:
 
 1. Planteamiento del desafío: una definición clara y justificada del desafío que abordará cada 
    profesor durante el curso. Es de aclarar que esto se refiere al curso para preparar la 
