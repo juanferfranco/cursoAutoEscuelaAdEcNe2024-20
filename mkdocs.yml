@@ -1,10 +1,9 @@
 site_name: Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la 
            toma de decisiones
 nav: 
-  - Inicio: index.md
-  - Fase 1: fase1.md
-  - Fase 2: fase2.md
-  - Fase 3: fase3.md
+  - Introducción: intro.md
+  - Diseño del curso: design.md
+  - Trayecto de actividades: trayecto.md
   - Recursos: recursos.md
   - Planes de estudio: planes.md
 theme:
