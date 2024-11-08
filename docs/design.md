@@ -135,7 +135,53 @@ Se esperan estos productos durante el curso:
 
 ## Estructura
 
+### Engage (Comprometerse)
+
+Propósito: motivar (aunque esto es un compromiso compartido) a los profesores y ayudarlos a identificar un desafío educativo significativo y contextualizado, relacionado con el desarrollo de competencias utilizando herramientas como la inteligencia artificial y la automatización. Esta fase busca que los profesores reflexionen sobre las necesidades de sus estudiantes y el contexto de sus cursos, y formulen un desafío claro que puedan abordar. Se busca conectar el desafío con las tendencias actuales del mundo empresarial y educativo para asegurar su relevancia.
+
+Actividades:
 
 
+Resultados de aprendizaje
 
+Evidencias
+
+
+### Investigate (Indagar)
+
+Propósito: facilitar un proceso de investigación donde los profesores profundicen en el desafío identificado, explorando tanto teorías educativas como tecnologías disponibles. En esta fase, los profesores recopilan información, investigan soluciones existentes, analizan casos de estudio y reflexionan sobre las mejores prácticas. El objetivo es que comprendan el problema en profundidad y generen ideas informadas para el diseño de una solución. Esto incluye analizar cómo la inteligencia artificial y la automatización pueden integrarse en experiencias de aprendizaje efectivas.
+
+Actividades:
+
+
+Resultados de aprendizaje:
+
+
+Evidencias:
+
+### Act (Actuar)
+
+Propósito: diseñar una experiencia de aprendizaje completa que integre las herramientas y conceptos investigados. En esta fase, los profesores desarrollan la planeación detallada, el material didáctico, las métricas de evaluación y el plan de recolección de evidencias. Aunque la implementación real se pospondrá para el semestre siguiente, el diseño debe ser lo suficientemente robusto y detallado para que pueda llevarse a cabo y evaluarse de manera efectiva. Se proporciona espacio para asegurar que el diseño esté alineado con las competencias esperadas y listo para su futura implementación.
+
+Actividades:
+
+
+Resultados de aprendizaje:
+
+
+Evidencias:
+
+
+### Share (Compartir)
+
+Propósito: al final de todo el proceso, después de que los profesores hayan implementado la experiencia de aprendizaje, recolectado evidencia y evaluado los resultados, esta fase sirve para compartir sus hallazgos y resultados con la comunidad educativa. Los profesores presentan el impacto de sus experiencias, discuten los aprendizajes y desafíos encontrados, y comparten las evidencias recolectadas. El propósito es promover la reflexión colectiva, el intercambio de buenas prácticas y el enriquecimiento mutuo a través de la socialización de las soluciones diseñadas y sus efectos.
+
+
+Actividades:
+
+
+Resultados de aprendizaje:
+
+
+Evidencias:
 
