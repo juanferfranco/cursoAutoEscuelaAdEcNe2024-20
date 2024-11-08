@@ -139,49 +139,127 @@ Se esperan estos productos durante el curso:
 
 Propósito: motivar (aunque esto es un compromiso compartido) a los profesores y ayudarlos a identificar un desafío educativo significativo y contextualizado, relacionado con el desarrollo de competencias utilizando herramientas como la inteligencia artificial y la automatización. Esta fase busca que los profesores reflexionen sobre las necesidades de sus estudiantes y el contexto de sus cursos, y formulen un desafío claro que puedan abordar. Se busca conectar el desafío con las tendencias actuales del mundo empresarial y educativo para asegurar su relevancia.
 
-Actividades:
-
-
-Resultados de aprendizaje
-
-Evidencias
-
+Actividades y evidencias: sesión 1.
 
 ### Investigate (Indagar)
 
 Propósito: facilitar un proceso de investigación donde los profesores profundicen en el desafío identificado, explorando tanto teorías educativas como tecnologías disponibles. En esta fase, los profesores recopilan información, investigan soluciones existentes, analizan casos de estudio y reflexionan sobre las mejores prácticas. El objetivo es que comprendan el problema en profundidad y generen ideas informadas para el diseño de una solución. Esto incluye analizar cómo la inteligencia artificial y la automatización pueden integrarse en experiencias de aprendizaje efectivas.
 
-Actividades:
+Actividades y evidencias: sesiones 2 y 3.
 
-
-Resultados de aprendizaje:
-
-
-Evidencias:
 
 ### Act (Actuar)
 
 Propósito: diseñar una experiencia de aprendizaje completa que integre las herramientas y conceptos investigados. En esta fase, los profesores desarrollan la planeación detallada, el material didáctico, las métricas de evaluación y el plan de recolección de evidencias. Aunque la implementación real se pospondrá para el semestre siguiente, el diseño debe ser lo suficientemente robusto y detallado para que pueda llevarse a cabo y evaluarse de manera efectiva. Se proporciona espacio para asegurar que el diseño esté alineado con las competencias esperadas y listo para su futura implementación.
 
-Actividades:
-
-
-Resultados de aprendizaje:
-
-
-Evidencias:
-
+Actividades y evidencias: sesiones 3 y 4.
 
 ### Share (Compartir)
 
 Propósito: al final de todo el proceso, después de que los profesores hayan implementado la experiencia de aprendizaje, recolectado evidencia y evaluado los resultados, esta fase sirve para compartir sus hallazgos y resultados con la comunidad educativa. Los profesores presentan el impacto de sus experiencias, discuten los aprendizajes y desafíos encontrados, y comparten las evidencias recolectadas. El propósito es promover la reflexión colectiva, el intercambio de buenas prácticas y el enriquecimiento mutuo a través de la socialización de las soluciones diseñadas y sus efectos.
 
+Evidencia: repositorio comunitario.
 
-Actividades:
+## Cronograma
+
+El curso tiene una duración de 50 horas con 4 sesiones presenciales distribuidas de la siguiente forma:
+
+### Sesión 1
+
+**Primera parte – 2 horas**
+
+-	Presentación del curso y su metodología.
+-	Presentación de conceptos y herramientas de inteligencia artificial y automatización.
+-	Posibilidades y aplicaciones de la IA en Administración.
+
+**Segunda parte – 2 horas**
+
+-	Identificación de un desafío educativo, explorar posibles aplicaciones en un curso
+-	Ejercicio de vigilancia alrededor del desafío educativo identificado, que permita verificar la 
+   alineación y relevancia de la propuesta con las tendencias actuales del mundo empresarial y educativo.
+-	Identificación y documentación de un desafío educativo significativo y contextualizado utilizando 
+   herramientas como la inteligencia artificial y la automatización.
+-	Socialización y realimentación.
+
+**Resultado esperado:** 
+
+Identificación y descripción de un desafío educativo significativo y contextualizado utilizando herramientas como la inteligencia artificial y la automatización, alineado con las tendencias actuales del mundo empresarial y educativo.
+
+**Actividad trabajo autónomo:**
+
+Diseño preliminar de la experiencia de aprendizaje para uno de los cursos que acompañará en 2025-10:
+
+-	Selección del Curso en el 2025-1 e identificación del módulo o la sección a abordar.
+-	Propósito de aprendizaje, competencias, capacidades, entregables o productos.
+-	Documentación y argumentación de la alineación y relevancia de la propuesta con las tendencias 
+   actuales del mundo empresarial y educativo.
+-	Diseño preliminar de la experiencia de aprendizaje.
 
 
-Resultados de aprendizaje:
+### Sesión 2
 
+**Primera parte – 2 horas**
 
-Evidencias:
+-	Socialización y realimentación de la actividad del trabajo autónomo.
+-	Herramientas para soportar el desarrollo de la experiencia educativa.
+-	Herramientas de apoyo de la inteligencia artificial.
+-	Criterios y herramientas de evaluación para medir el impacto de la experiencia de aprendizaje.
 
+**Segunda parte – 2 horas**
+
+-	Trabajo en el diseño de la experiencia de aprendizaje.
+-	Socialización y realimentación.
+
+**Resultado esperado:** 
+
+Diseño de la experiencia de aprendizaje para uno de los cursos que acompañará en 2025-10 a partir de la Identificación del desafío educativo, incluyendo: 
+
+-	Planeación detallada de la experiencia de aprendizaje (paso a paso).
+-	Actividades clave y recursos pedagógicos alineados con las competencias planteadas.
+-	Identificación del conjunto de criterios y herramientas de evaluación para medir el impacto de la 
+   experiencia de aprendizaje.
+
+**Actividad trabajo autónomo:**
+
+-	Diseño detallado de la experiencia de aprendizaje para uno de los cursos que acompañará en 2025-10.
+-	Plan detallado para hacer seguimiento, documentar y recopilar evidencias necesarias para evaluar el 
+   impacto de la experiencia.
+-	Avance en el desarrollo del material didáctico necesario para implementar la experiencia en el curso.
+
+### Sesión 3
+
+**Primera parte**
+
+-	Socialización y realimentación de la actividad del trabajo autónomo.
+-	Técnicas de diseño de experiencias de aprendizaje que fomenten un aprendizaje PROFUNDO, PERDURABLE y 
+   TRANSFERIBLE.
+-	CASO DE ESTUDIO de una experiencia diseñada que incluya el diseño, planeación, definición de los KPI, 
+   las herramientas de soporte y recolección de evidencias.
+
+**Segunda parte**
+
+-	Ajuste de las experiencias de aprendizaje para que fomenten un aprendizaje PROFUNDO, PERDURABLE y 
+   TRANSFERIBLE.
+-	Trabajo en el desarrollo del material didáctico.
+-	Socialización y realimentación.
+
+**Resultado esperado:**
+
+Desarrollo de la mayor parte del material didáctico para implementar la experiencia en el curso.
+Trabajo autónomo: 
+
+-	Desarrollo de todo el material didáctico para implementar la experiencia en el curso.
+-	Documentación de la experiencia de aprendizaje para su inclusión en el repositorio comunitario.
+
+### Sesión 4
+
+**Primera parte**
+
+-	Socialización y realimentación de la actividad del trabajo autónomo.
+
+**Segunda parte**
+
+-	Desarrollo y documentación de la experiencia de aprendizaje para su inclusión en el repositorio 
+   comunitario.
+-	Socialización y realimentación del producto final
+-	Realimentación del curso.
