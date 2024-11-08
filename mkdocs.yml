@@ -1,7 +1,7 @@
 site_name: Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la 
            toma de decisiones
 nav: 
-  - Introducción: intro.md
+  - Introducción: index.md
   - Diseño del curso: design.md
   - Trayecto de actividades: trayecto.md
   - Recursos: recursos.md
