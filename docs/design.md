@@ -43,6 +43,8 @@ Proponemos tres objetivos fundamentales para el curso:
 3. Objetivo de sistematización: sistematizar las experiencias de aprendizaje creadas por los 
    profesores en un repositorio estructurado, con el propósito de compartir prácticas y recursos innovadores que enriquezcan la comunidad educativa.
 
+![Objetivos](./assets/objetivos.svg)
+
 ## Competencias, criterios y niveles esperados
 
 ### Competencia de diseño e implementación
@@ -76,6 +78,7 @@ Sistematizo mis experiencias educativas, organizando los recursos y materiales d
 
 Desarrollo un repositorio que sea accesible y útil para otros educadores, asegurando la calidad y claridad de la información compartida (Nivel: estratégico).
 
+![Competencias](./assets/competencias.svg)
 
 ## Análisis de los niveles de los criterios propuestos
 
@@ -91,7 +94,7 @@ Razonamiento: este nivel implica que el profesor puede diseñar de manera indepe
 
 ### Competencia de Análisis Crítico
 
-Criterio: analizo las experiencias de aprendizaje para determinar su relevancia y alineación con las tendencias del entorno empresaria. (Nivel: estratégico)
+Criterio: analizo las experiencias de aprendizaje para determinar su relevancia y alineación con las tendencias del entorno empresarial. (Nivel: estratégico)
 
 Razonamiento: se elige un nivel estratégico porque este criterio implica un análisis profundo y la capacidad de aplicar estrategias de evaluación en contextos complejos. Aquí, el profesor debe demostrar no solo un entendimiento crítico, sino también la capacidad de evaluar cómo las experiencias se alinean con tendencias emergentes. Un nivel autónomo sería insuficiente para captar la complejidad de este análisis.
 
@@ -109,7 +112,11 @@ Criterio: desarrollo un repositorio que sea accesible y útil para otros educado
 
 Razonamiento: este criterio requiere un nivel estratégico porque implica crear un recurso que no solo cumpla con estándares básicos, sino que también sea innovador y altamente funcional para la comunidad educativa. Aquí, se necesita una planificación avanzada para garantizar que el repositorio sea efectivo. Un nivel autónomo no captaría la necesidad de asegurar calidad y accesibilidad a un nivel elevado.
 
-## Acercamiento metodológico
+![Análisis de niveles 1](./assets/nivelesAnalisis1.svg)
+
+![Análisis de niveles 2](./assets/nivelesAnalisis2.svg)
+
+## Evidencias de aprendizaje
 
 El curso se estructurará utilizando micro challenges (personalizados a cada profesor), alineados 
 con las tres fases del marco Challenge Based Learning (CBL): Engagement (Compromiso), Investigation (Investigación) y Action (Acción). Cada fase incluirá actividades específicas para asegurar que los profesores logren los objetivos del curso.
@@ -135,6 +142,8 @@ Se esperan estos productos durante el curso:
 
 6. Documentación sistematizada: la experiencia de aprendizaje completamente documentada y preparada 
    para su inclusión en el repositorio comunitario.
+
+![Hitos](./assets/hitos.svg)
 
 ## Estructura
 
@@ -162,6 +171,8 @@ Actividades y evidencias: sesiones 3 y 4.
 Propósito: al final de todo el proceso, después de que los profesores hayan implementado la experiencia de aprendizaje, recolectado evidencia y evaluado los resultados, esta fase sirve para compartir sus hallazgos y resultados con la comunidad educativa. Los profesores presentan el impacto de sus experiencias, discuten los aprendizajes y desafíos encontrados, y comparten las evidencias recolectadas. El propósito es promover la reflexión colectiva, el intercambio de buenas prácticas y el enriquecimiento mutuo a través de la socialización de las soluciones diseñadas y sus efectos.
 
 Evidencia: repositorio comunitario.
+
+![microCBL](./assets/microCBL.svg)
 
 ## Cronograma
 
@@ -268,6 +279,9 @@ Trabajo autónomo:
 -	Realimentación del curso.
 
 ## Escenarios
+
+![Escenarios](./assets/historias.svg)
+
 
 ### Favorable
 
