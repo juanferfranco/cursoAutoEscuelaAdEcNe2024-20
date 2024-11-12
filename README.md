@@ -19,6 +19,12 @@ Instalar mkdocs-material
 pip install mkdocs-material
 ```
 
+Adición de la funcionalidad de zoom a las imágenes
+
+``` bash
+pip install mkdocs-glightbox
+```
+
 Para crear un nuevo proyecto (pero no es necesario en este caso porque 
 ya está creado):
 
