@@ -2,7 +2,7 @@
 
 ## Consideraciones iniciales
 
-Estas consideraciones iniciales salen de las reuniones iniciales con el grupo 
+Estas consideraciones salen de las reuniones iniciales con el grupo 
 de profesores que dirigen los programas de la Escuela de Administración, 
 Economía y Negocios:
 

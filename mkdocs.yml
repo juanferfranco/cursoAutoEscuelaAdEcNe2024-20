@@ -3,6 +3,8 @@ site_name: Diseño de experiencias de aprendizaje con IA para el análisis, la a
 nav: 
   - Introducción: index.md
   - Diseño del curso: design.md
+  - Trayecto de actividades: trayecto.md
+  - Recursos: recursos.md
   - Planes de estudio: planes.md
 theme:
   name: material
