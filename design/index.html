@@ -1,0 +1,1208 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../planes/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.45">
+    
+    
+      
+        <title>Diseño del curso - Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la toma de decisiones</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#consideraciones-de-diseno-del-curso" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la toma de decisiones" class="md-header__button md-logo" aria-label="Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la toma de decisiones" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la toma de decisiones
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Diseño del curso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiarse al modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiarse al modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiarse al modo oscuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiarse al modo oscuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la toma de decisiones" class="md-nav__button md-logo" aria-label="Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la toma de decisiones" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Diseño de experiencias de aprendizaje con IA para el análisis, la automatización y la toma de decisiones
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introducción
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Diseño del curso
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Diseño del curso
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#consideraciones-iniciales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consideraciones iniciales
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivos-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivos del curso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competencias-criterios-y-niveles-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencias, criterios y niveles esperados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Competencias, criterios y niveles esperados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-diseno-e-implementacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de diseño e implementación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-analisis-critico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de análisis crítico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-sistematizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de Sistematización
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analisis-de-los-niveles-de-los-criterios-propuestos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Análisis de los niveles de los criterios propuestos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Análisis de los niveles de los criterios propuestos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-diseno-e-implementacion_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de diseño e implementación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-analisis-critico_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de Análisis Crítico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-sistematizacion_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de Sistematización
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evidencias-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evidencias de aprendizaje
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#engage-comprometerse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Engage (Comprometerse)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#investigate-indagar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Investigate (Indagar)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-actuar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Act (Actuar)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#share-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Share (Compartir)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cronograma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronograma
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cronograma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sesion-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escenarios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Escenarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#favorable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Favorable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abrumador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abrumador
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planes de estudio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#consideraciones-iniciales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consideraciones iniciales
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivos-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivos del curso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competencias-criterios-y-niveles-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencias, criterios y niveles esperados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Competencias, criterios y niveles esperados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-diseno-e-implementacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de diseño e implementación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-analisis-critico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de análisis crítico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-sistematizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de Sistematización
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analisis-de-los-niveles-de-los-criterios-propuestos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Análisis de los niveles de los criterios propuestos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Análisis de los niveles de los criterios propuestos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-diseno-e-implementacion_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de diseño e implementación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-analisis-critico_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de Análisis Crítico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competencia-de-sistematizacion_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Competencia de Sistematización
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evidencias-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evidencias de aprendizaje
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#engage-comprometerse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Engage (Comprometerse)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#investigate-indagar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Investigate (Indagar)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-actuar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Act (Actuar)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#share-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Share (Compartir)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cronograma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronograma
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cronograma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sesion-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escenarios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Escenarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#favorable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Favorable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abrumador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abrumador
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="consideraciones-de-diseno-del-curso">Consideraciones de diseño del curso</h1>
+<h2 id="consideraciones-iniciales">Consideraciones iniciales</h2>
+<p>Estas consideraciones salen de las reuniones iniciales con el grupo 
+de profesores que dirigen los programas de la Escuela de Administración, 
+Economía y Negocios:</p>
+<ul>
+<li>El curso tendrá una duración de 50 horas.</li>
+<li>El curso se compone de 4 sesiones presenciales, cada una de 4 horas, y 
+  34 horas de trabajo independiente. </li>
+<li>Se acerca la renovación del registro calificado de algunos programas. 
+  También, posibles transformaciones curriculares.</li>
+<li>Se ve necesario articular el currículo con los avances tecnológicos.</li>
+<li>Se reconoce una brecha entre el currículo y lo que realmente ocurre en las 
+  empresas.</li>
+<li>Se identifica la necesidad de actualizar a los profesores en el uso 
+  de herramientas y procesos que están alineados con el día a día de las 
+  empresas.</li>
+<li>Se considera necesario introducir herramientas basadas en inteligencia 
+  artificial en los cursos.</li>
+<li>Se considera que el diseño y implementación de este curso será exitoso 
+  si sirve de insumo para el diseño de experiencias de aprendizaje en 
+  los cursos de los programas.</li>
+<li>Se busca que el curso permita a los asistentes acercarse a los fundamentos 
+  que permitan seleccionar de manera informada herramientas.</li>
+<li>Se desea incorporar en los cursos herramientas que soporten el análisis de 
+  datos y la toma de decisiones.</li>
+</ul>
+<p><a class="glightbox" href="../assets/requisitos.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Requisitos" src="../assets/requisitos.svg" /></a></p>
+<h2 id="objetivos-del-curso">Objetivos del curso</h2>
+<p>Proponemos tres objetivos fundamentales para el curso:</p>
+<ol>
+<li>
+<p>Objetivo del curso: desarrollar la capacidad de diseñar, implementar y evaluar  <br />
+   experiencias de aprendizaje contextualizadas, que integren herramientas de inteligencia artificial, para abordar problemas de análisis de datos, automatización de procesos, la toma de decisiones y/o las necesidades que determine el profesor en su curso. </p>
+</li>
+<li>
+<p>Objetivo de análisis crítico de pertinencia: fomentar en los profesores la capacidad de analizar 
+   críticamente si las experiencias de aprendizaje que diseñan ofrecen a los estudiantes oportunidades para desarrollar competencias relevantes y alineadas con la realidad y las tendencias actuales del mundo de los negocios, asegurando que el aprendizaje sea significativo y actualizado.</p>
+</li>
+<li>
+<p>Objetivo de sistematización: sistematizar las experiencias de aprendizaje creadas por los 
+   profesores en un repositorio estructurado, con el propósito de compartir prácticas y recursos innovadores que enriquezcan la comunidad educativa.</p>
+</li>
+</ol>
+<p><a class="glightbox" href="../assets/objetivos.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Objetivos" src="../assets/objetivos.svg" /></a></p>
+<h2 id="competencias-criterios-y-niveles-esperados">Competencias, criterios y niveles esperados</h2>
+<h3 id="competencia-de-diseno-e-implementacion">Competencia de diseño e implementación</h3>
+<p>Competencia: diseña, implementa y evalúa experiencias de aprendizaje contextualizadas que integren herramientas de inteligencia artificial para abordar problemas de análisis de datos, automatización de procesos, la toma de 
+decisiones y/o las necesidades específicas del curso.</p>
+<p>Criterios de competencia:</p>
+<p>Analizo problemas de análisis de datos, automatización y toma de decisiones en el contexto de un curso, proponiendo soluciones basadas en IA. (Nivel: autónomo)</p>
+<p>Diseño experiencias de aprendizaje que integran herramientas de IA, asegurando que sean significativas y aplicables al contexto del curso (Nivel: autónomo).</p>
+<h3 id="competencia-de-analisis-critico">Competencia de análisis crítico</h3>
+<p>Competencia: analiza críticamente las experiencias de aprendizaje diseñadas, asegurando que ofrezcan oportunidades relevantes y alineadas con las tendencias actuales del mundo de los negocios, para un aprendizaje significativo y actualizado.</p>
+<p>Criterios de Competencia:</p>
+<p>Analizo las experiencias de aprendizaje para determinar su relevancia y alineación con las tendencias del entorno empresarial, aplicando estrategias avanzadas de evaluación (Nivel: estratégico).</p>
+<p>Propongo mejoras basadas en un análisis crítico, asegurando que las experiencias sean actualizadas y significativas (Nivel: autónomo).</p>
+<h3 id="competencia-de-sistematizacion">Competencia de Sistematización</h3>
+<p>Competencia: sistematiza las experiencias de aprendizaje creadas en un repositorio estructurado, facilitando el intercambio de prácticas y recursos innovadores con la comunidad educativa.</p>
+<p>Criterios de Competencia:</p>
+<p>Sistematizo mis experiencias educativas, organizando los recursos y materiales de manera coherente y estructurada (Nivel: autónomo).</p>
+<p>Desarrollo un repositorio que sea accesible y útil para otros educadores, asegurando la calidad y claridad de la información compartida (Nivel: estratégico).</p>
+<p><a class="glightbox" href="../assets/competencias.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Competencias" src="../assets/competencias.svg" /></a></p>
+<h2 id="analisis-de-los-niveles-de-los-criterios-propuestos">Análisis de los niveles de los criterios propuestos</h2>
+<h3 id="competencia-de-diseno-e-implementacion_1">Competencia de diseño e implementación</h3>
+<p>Criterio: analizo problemas de análisis de datos, automatización y toma de decisiones en el contexto de un curso, proponiendo soluciones basadas en IA. (Nivel: autónomo)</p>
+<p>Razonamiento: se elige el nivel autónomo porque se espera que los profesores no solo comprendan los problemas, sino que sean capaces de analizar y proponer soluciones de forma independiente y con criterio propio. Evaluar este criterio a un nivel resolutivo sería insuficiente, ya que solo implicaría aplicar soluciones estándar sin un análisis profundo. En cambio, un nivel estratégico podría ser demasiado exigente, dado el tiempo limitado y la necesidad de mostrar innovación y planificación avanzada.</p>
+<p>Criterio: diseño experiencias de aprendizaje que integran de manera efectiva herramientas de IA, asegurando que sean significativas y aplicables al contexto del curso. (Nivel: autónomo)</p>
+<p>Razonamiento: este nivel implica que el profesor puede diseñar de manera independiente, asegurando que las experiencias se adapten a las necesidades de su contexto específico. Se elige un nivel autónomo porque se espera que los profesores desarrollen un diseño sólido y justificado. Un nivel resolutivo sería demasiado básico, mientras que un nivel estratégico podría requerir una planificación más avanzada e innovación que quizás no sea factible dentro del marco del curso.</p>
+<h3 id="competencia-de-analisis-critico_1">Competencia de Análisis Crítico</h3>
+<p>Criterio: analizo las experiencias de aprendizaje para determinar su relevancia y alineación con las tendencias del entorno empresarial. (Nivel: estratégico)</p>
+<p>Razonamiento: se elige un nivel estratégico porque este criterio implica un análisis profundo y la capacidad de aplicar estrategias de evaluación en contextos complejos. Aquí, el profesor debe demostrar no solo un entendimiento crítico, sino también la capacidad de evaluar cómo las experiencias se alinean con tendencias emergentes. Un nivel autónomo sería insuficiente para captar la complejidad de este análisis.</p>
+<p>Criterio: propongo mejoras basadas en un análisis crítico, asegurando que las experiencias sean actualizadas y significativas. (Nivel: autónomo)</p>
+<p>Razonamiento: se elige un nivel autónomo porque se espera que los profesores puedan sugerir mejoras de manera independiente y fundamentada, pero sin la necesidad de desarrollar estrategias avanzadas o completamente innovadoras, como lo requeriría un nivel estratégico. Un nivel resolutivo no sería adecuado, ya que solo implicaría hacer cambios sencillos sin una justificación crítica.</p>
+<h3 id="competencia-de-sistematizacion_1">Competencia de Sistematización</h3>
+<p>Criterio: Sistematizo mis experiencias educativas, organizando los recursos y materiales de manera coherente y estructurada. (Nivel: autónomo)</p>
+<p>Razonamiento: se elige un nivel autónomo porque los profesores deben ser capaces de organizar y sistematizar su trabajo de forma independiente y coherente. Este nivel es apropiado para el desarrollo de un repositorio que sea útil y accesible. Un nivel resolutivo sería demasiado básico y no captaría la complejidad de organizar materiales de manera efectiva, mientras que un nivel estratégico podría requerir elementos avanzados de planificación y diseño que no sean factibles en el marco del curso.</p>
+<p>Criterio: desarrollo un repositorio que sea accesible y útil para otros educadores, asegurando la calidad y claridad de la información compartida. (Nivel: estratégico)</p>
+<p>Razonamiento: este criterio requiere un nivel estratégico porque implica crear un recurso que no solo cumpla con estándares básicos, sino que también sea innovador y altamente funcional para la comunidad educativa. Aquí, se necesita una planificación avanzada para garantizar que el repositorio sea efectivo. Un nivel autónomo no captaría la necesidad de asegurar calidad y accesibilidad a un nivel elevado.</p>
+<p><a class="glightbox" href="../assets/nivelesAnalisis1.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Análisis de niveles 1" src="../assets/nivelesAnalisis1.svg" /></a></p>
+<p><a class="glightbox" href="../assets/nivelesAnalisis2.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Análisis de niveles 2" src="../assets/nivelesAnalisis2.svg" /></a></p>
+<h2 id="evidencias-de-aprendizaje">Evidencias de aprendizaje</h2>
+<p>El curso se estructurará utilizando micro challenges (personalizados a cada profesor), alineados 
+con las tres fases del marco Challenge Based Learning (CBL): Engagement (Compromiso), Investigation (Investigación) y Action (Acción). Cada fase incluirá actividades específicas para asegurar que los profesores logren los objetivos del curso.</p>
+<p>Se esperan estos productos durante el curso:</p>
+<ol>
+<li>
+<p>Planteamiento del desafío: una definición clara y justificada del desafío que abordará cada 
+   profesor durante el curso. Es de aclarar que esto se refiere al curso para preparar la 
+   experiencia, no a la experiencia misma, es decir, el profesor podría diseñar la experiencia 
+   como un RETO o definir otra estrategia.</p>
+</li>
+<li>
+<p>Diseño de la experiencia de aprendizaje: un esquema detallado de la experiencia, con actividades 
+   clave y recursos pedagógicos alineados con las competencias identificadas.</p>
+</li>
+<li>
+<p>Material didáctico completo: todos los recursos y materiales necesarios para implementar la 
+   experiencia en el curso.</p>
+</li>
+<li>
+<p>Métricas de éxito: un conjunto de criterios y herramientas de evaluación para medir el éxito de la 
+   experiencia de aprendizaje.</p>
+</li>
+<li>
+<p>Plan de recolección de evidencias: un plan detallado para recopilar evidencias necesarias para 
+   evaluar el éxito de la experiencia.</p>
+</li>
+<li>
+<p>Documentación sistematizada: la experiencia de aprendizaje completamente documentada y preparada 
+   para su inclusión en el repositorio comunitario.</p>
+</li>
+</ol>
+<p><a class="glightbox" href="../assets/hitos.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Hitos" src="../assets/hitos.svg" /></a></p>
+<h2 id="estructura">Estructura</h2>
+<h3 id="engage-comprometerse">Engage (Comprometerse)</h3>
+<p>Propósito: motivar (aunque esto es un compromiso compartido) a los profesores y ayudarlos a identificar un desafío educativo significativo y contextualizado, relacionado con el desarrollo de competencias utilizando herramientas como la inteligencia artificial y la automatización. Esta fase busca que los profesores reflexionen sobre las necesidades de sus estudiantes y el contexto de sus cursos, y formulen un desafío claro que puedan abordar. Se busca conectar el desafío con las tendencias actuales del mundo empresarial y educativo para asegurar su relevancia.</p>
+<p>Actividades y evidencias: sesión 1.</p>
+<h3 id="investigate-indagar">Investigate (Indagar)</h3>
+<p>Propósito: facilitar un proceso de investigación donde los profesores profundicen en el desafío identificado, explorando tanto teorías educativas como tecnologías disponibles. En esta fase, los profesores recopilan información, investigan soluciones existentes, analizan casos de estudio y reflexionan sobre las mejores prácticas. El objetivo es que comprendan el problema en profundidad y generen ideas informadas para el diseño de una solución. Esto incluye analizar cómo la inteligencia artificial y la automatización pueden integrarse en experiencias de aprendizaje efectivas.</p>
+<p>Actividades y evidencias: sesiones 2 y 3.</p>
+<h3 id="act-actuar">Act (Actuar)</h3>
+<p>Propósito: diseñar una experiencia de aprendizaje completa que integre las herramientas y conceptos investigados. En esta fase, los profesores desarrollan la planeación detallada, el material didáctico, las métricas de evaluación y el plan de recolección de evidencias. Aunque la implementación real se pospondrá para el semestre siguiente, el diseño debe ser lo suficientemente robusto y detallado para que pueda llevarse a cabo y evaluarse de manera efectiva. Se proporciona espacio para asegurar que el diseño esté alineado con las competencias esperadas y listo para su futura implementación.</p>
+<p>Actividades y evidencias: sesiones 3 y 4.</p>
+<h3 id="share-compartir">Share (Compartir)</h3>
+<p>Propósito: al final de todo el proceso, después de que los profesores hayan implementado la experiencia de aprendizaje, recolectado evidencia y evaluado los resultados, esta fase sirve para compartir sus hallazgos y resultados con la comunidad educativa. Los profesores presentan el impacto de sus experiencias, discuten los aprendizajes y desafíos encontrados, y comparten las evidencias recolectadas. El propósito es promover la reflexión colectiva, el intercambio de buenas prácticas y el enriquecimiento mutuo a través de la socialización de las soluciones diseñadas y sus efectos.</p>
+<p>Evidencia: repositorio comunitario.</p>
+<p><a class="glightbox" href="../assets/microCBL.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="microCBL" src="../assets/microCBL.svg" /></a></p>
+<h2 id="cronograma">Cronograma</h2>
+<p>El curso tiene una duración de 50 horas con 4 sesiones presenciales distribuidas de la siguiente forma:</p>
+<h3 id="sesion-1">Sesión 1</h3>
+<p><strong>Primera parte – 2 horas</strong></p>
+<ul>
+<li>Presentación del curso y su metodología.</li>
+<li>Presentación de conceptos y herramientas de inteligencia artificial y automatización.</li>
+<li>Posibilidades y aplicaciones de la IA en Administración.</li>
+</ul>
+<p><strong>Segunda parte – 2 horas</strong></p>
+<ul>
+<li>Identificación de un desafío educativo, explorar posibles aplicaciones en un curso</li>
+<li>Ejercicio de vigilancia alrededor del desafío educativo identificado, que permita verificar la 
+   alineación y relevancia de la propuesta con las tendencias actuales del mundo empresarial y educativo.</li>
+<li>Identificación y documentación de un desafío educativo significativo y contextualizado utilizando 
+   herramientas como la inteligencia artificial y la automatización.</li>
+<li>Socialización y realimentación.</li>
+</ul>
+<p><strong>Resultado esperado:</strong> </p>
+<p>Identificación y descripción de un desafío educativo significativo y contextualizado utilizando herramientas como la inteligencia artificial y la automatización, alineado con las tendencias actuales del mundo empresarial y educativo.</p>
+<p><strong>Actividad trabajo autónomo:</strong></p>
+<p>Diseño preliminar de la experiencia de aprendizaje para uno de los cursos que acompañará en 2025-10:</p>
+<ul>
+<li>Selección del Curso en el 2025-1 e identificación del módulo o la sección a abordar.</li>
+<li>Propósito de aprendizaje, competencias, capacidades, entregables o productos.</li>
+<li>Documentación y argumentación de la alineación y relevancia de la propuesta con las tendencias 
+   actuales del mundo empresarial y educativo.</li>
+<li>Diseño preliminar de la experiencia de aprendizaje.</li>
+</ul>
+<h3 id="sesion-2">Sesión 2</h3>
+<p><strong>Primera parte – 2 horas</strong></p>
+<ul>
+<li>Socialización y realimentación de la actividad del trabajo autónomo.</li>
+<li>Herramientas para soportar el desarrollo de la experiencia educativa.</li>
+<li>Herramientas de apoyo de la inteligencia artificial.</li>
+<li>Criterios y herramientas de evaluación para medir el impacto de la experiencia de aprendizaje.</li>
+</ul>
+<p><strong>Segunda parte – 2 horas</strong></p>
+<ul>
+<li>Trabajo en el diseño de la experiencia de aprendizaje.</li>
+<li>Socialización y realimentación.</li>
+</ul>
+<p><strong>Resultado esperado:</strong> </p>
+<p>Diseño de la experiencia de aprendizaje para uno de los cursos que acompañará en 2025-10 a partir de la Identificación del desafío educativo, incluyendo: </p>
+<ul>
+<li>Planeación detallada de la experiencia de aprendizaje (paso a paso).</li>
+<li>Actividades clave y recursos pedagógicos alineados con las competencias planteadas.</li>
+<li>Identificación del conjunto de criterios y herramientas de evaluación para medir el impacto de la 
+   experiencia de aprendizaje.</li>
+</ul>
+<p><strong>Actividad trabajo autónomo:</strong></p>
+<ul>
+<li>Diseño detallado de la experiencia de aprendizaje para uno de los cursos que acompañará en 2025-10.</li>
+<li>Plan detallado para hacer seguimiento, documentar y recopilar evidencias necesarias para evaluar el 
+   impacto de la experiencia.</li>
+<li>Avance en el desarrollo del material didáctico necesario para implementar la experiencia en el curso.</li>
+</ul>
+<h3 id="sesion-3">Sesión 3</h3>
+<p><strong>Primera parte</strong></p>
+<ul>
+<li>Socialización y realimentación de la actividad del trabajo autónomo.</li>
+<li>Técnicas de diseño de experiencias de aprendizaje que fomenten un aprendizaje PROFUNDO, PERDURABLE y 
+   TRANSFERIBLE.</li>
+<li>CASO DE ESTUDIO de una experiencia diseñada que incluya el diseño, planeación, definición de los KPI, 
+   las herramientas de soporte y recolección de evidencias.</li>
+</ul>
+<p><strong>Segunda parte</strong></p>
+<ul>
+<li>Ajuste de las experiencias de aprendizaje para que fomenten un aprendizaje PROFUNDO, PERDURABLE y 
+   TRANSFERIBLE.</li>
+<li>Trabajo en el desarrollo del material didáctico.</li>
+<li>Socialización y realimentación.</li>
+</ul>
+<p><strong>Resultado esperado:</strong></p>
+<p>Desarrollo de la mayor parte del material didáctico para implementar la experiencia en el curso.
+Trabajo autónomo: </p>
+<ul>
+<li>Desarrollo de todo el material didáctico para implementar la experiencia en el curso.</li>
+<li>Documentación de la experiencia de aprendizaje para su inclusión en el repositorio comunitario.</li>
+</ul>
+<h3 id="sesion-4">Sesión 4</h3>
+<p><strong>Primera parte</strong></p>
+<ul>
+<li>Socialización y realimentación de la actividad del trabajo autónomo.</li>
+</ul>
+<p><strong>Segunda parte</strong></p>
+<ul>
+<li>Desarrollo y documentación de la experiencia de aprendizaje para su inclusión en el repositorio 
+   comunitario.</li>
+<li>Socialización y realimentación del producto final</li>
+<li>Realimentación del curso.</li>
+</ul>
+<h2 id="escenarios">Escenarios</h2>
+<p><a class="glightbox" href="../assets/historias.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Escenarios" src="../assets/historias.svg" /></a></p>
+<h3 id="favorable">Favorable</h3>
+<p><strong>Fase 1: Engage (Involucrar)</strong></p>
+<p>Como profesor, al iniciar el curso, me encuentro en un espacio colaborativo junto con otros colegas, guiado por 
+facilitadores que me presentan el propósito de integrar tecnologías emergentes, como la inteligencia artificial y 
+la automatización, en nuestras experiencias educativas. La primera actividad nos desafía a reflexionar sobre los 
+problemas y desafíos significativos que enfrentamos en nuestros cursos. Me pregunto: ¿Qué dificultades tienen 
+mis estudiantes que podrían resolverse con tecnología?</p>
+<p>Los facilitadores nos presentan ejemplos inspiradores. En pequeños grupos, compartimos nuestras ideas y discutimos 
+problemas comunes, lo que me ayuda a conectar con mis compañeros y explorar diferentes perspectivas. Al final de 
+esta fase, he identificado un desafío preliminar que quiero abordar, basado en la necesidad de mejorar el 
+análisis de datos y la toma de decisiones en mi curso de negocios.</p>
+<p><strong>Fase 2: Investigate (Investigar)</strong></p>
+<p>Ahora, comienza la fase de investigación. Se me anima a profundizar en el desafío que he identificado. Paso 
+tiempo investigando cómo las tecnologías emergentes pueden ayudar a resolver este problema. Utilizo recursos 
+proporcionados por los facilitadores, como artículos académicos, estudios de caso y entrevistas con expertos.</p>
+<p>Dedico parte de mis 34 horas de trabajo independiente a explorar herramientas específicas de inteligencia 
+artificial que podrían ser útiles. Reflexiono sobre cómo estas tecnologías podrían integrarse de manera 
+efectiva en mi curso, considerando tanto las oportunidades como las limitaciones. Discuto mis ideas con otros 
+profesores en sesiones de retroalimentación, lo que me ayuda a perfeccionar mi comprensión y a descubrir 
+nuevas perspectivas.</p>
+<p>Para concluir esta fase, desarrollo un marco preliminar para mi experiencia de aprendizaje. Este marco incluye 
+los conceptos que mis estudiantes deben aprender, las herramientas tecnológicas que usaré, y una idea clara de 
+cómo se estructurará la experiencia para hacerla relevante y efectiva.</p>
+<p><strong>Fase 3: Act (Actuar)</strong></p>
+<p>En esta fase, trabajo en el diseño completo de mi experiencia de aprendizaje. Utilizo lo aprendido durante 
+la investigación para crear un plan detallado que incluya:</p>
+<p>Material didáctico: desarrollé guías, actividades interactivas y recursos basados en IA que mis estudiantes usarán.</p>
+<p>Métricas de evaluación: defino cómo mediré el éxito de mi experiencia. Por ejemplo, decido usar análisis de desempeño 
+en proyectos de datos y encuestas de retroalimentación.</p>
+<p>Plan de recolección de evidencia: detallo cómo recolectaré datos durante la implementación, como grabaciones de presentaciones 
+de estudiantes o análisis de trabajos. </p>
+<p>Aunque no implementaré la experiencia todavía, dejo todo preparado para el semestre siguiente. Siento que he diseñado 
+algo que no solo enseñará contenido, sino que también desafiará a mis estudiantes a pensar críticamente y aplicar lo 
+aprendido en contextos reales.</p>
+<p><strong>Semestre de implementación y recolección de evidencia</strong></p>
+<p>Durante el semestre siguiente, llevo a cabo la experiencia de aprendizaje en mi curso. Mis estudiantes trabajan con las 
+herramientas de inteligencia artificial y aplican lo aprendido a problemas empresariales reales. Recolecto evidencia de 
+cómo los estudiantes responden a la experiencia, observando su desempeño y registrando datos clave que medirán el impacto 
+de mi diseño.</p>
+<p><strong>Fase 4: Share (Compartir)</strong></p>
+<p>Al finalizar el semestre, regreso al curso para la fase final: compartir mis hallazgos. Me uno nuevamente a mis compañeros 
+profesores, donde presento mi experiencia de aprendizaje, explico las métricas que usé y muestro las evidencias de cómo 
+esta solución impactó a mis estudiantes.</p>
+<p>Escucho las presentaciones de otros profesores, intercambiamos ideas y reflexionamos sobre cómo podríamos mejorar nuestras 
+experiencias para el futuro. Al compartir, también sistematizo mi proyecto en un repositorio común, permitiendo que la 
+comunidad educativa acceda a mi trabajo y lo use como inspiración o recurso.</p>
+<p>Me siento satisfecho porque no solo he aprendido a integrar tecnologías emergentes en mi enseñanza, sino que también he 
+contribuido al conocimiento compartido de nuestra comunidad académica.</p>
+<p><strong>Resumen del Proceso</strong></p>
+<p>Engage: reflexionar y definir un desafío relevante.</p>
+<p>Investigate: explorar soluciones y desarrollar un marco inicial.</p>
+<p>Act: diseñar completamente la experiencia de aprendizaje.</p>
+<p>Implementar: poner en práctica la experiencia y recolectar evidencia (en el semestre siguiente).</p>
+<p>Share: presentar los resultados, reflexionar y sistematizar el aprendizaje para compartir con la comunidad.</p>
+<h3 id="abrumador">Abrumador</h3>
+<p><strong>Fase 1: Engage (Involucrar)</strong></p>
+<p>Al comenzar el curso, me encuentro en un espacio con otros profesores, y los facilitadores nos presentan el 
+objetivo de integrar tecnologías emergentes en nuestras experiencias de aprendizaje. Sin embargo, desde el 
+principio, me siento un poco abrumado. Nos piden que reflexionemos y definamos un desafío significativo, 
+pero me cuesta pensar en un problema que realmente pueda abordar con inteligencia artificial. Mientras algunos 
+compañeros parecen inspirados y llenos de ideas, yo solo siento presión y falta de claridad.</p>
+<p>En las discusiones en grupo, me resulta difícil conectar mis ideas con ejemplos relevantes, y empiezo a dudar 
+de mi capacidad para aplicar lo que se espera en mi curso. Al final de esta fase, mi desafío aún no está completamente 
+definido, y siento que estoy forzando una idea sin estar realmente convencido de que funcione.</p>
+<p><strong>Fase 2: Investigate (Investigar)</strong></p>
+<p>En esta fase, las cosas se complican aún más. Me doy cuenta de que la investigación requiere tiempo y recursos 
+que no había anticipado. Dedico horas buscando artículos y ejemplos de casos, pero todo parece demasiado técnico 
+o no aplicable a mi contexto educativo. Intento aprender sobre las herramientas de inteligencia artificial recomendadas, 
+pero la curva de aprendizaje es empinada, y me siento perdido.</p>
+<p>La frustración crece cuando en las sesiones de retroalimentación mis compañeros sugieren ideas que, en mi opinión, 
+solo hacen que mi desafío se sienta más complicado. Siento que estoy invirtiendo tiempo en un tema que no domino y 
+que podría no tener impacto en mis estudiantes. Mis ideas no terminan de encajar, y no tengo una dirección clara 
+para avanzar.</p>
+<p><strong>Fase 3: Act (Actuar)</strong></p>
+<p>Llego a esta fase sin sentirme preparado. Me esfuerzo por diseñar una experiencia de aprendizaje, pero es un 
+proceso doloroso. Desarrollar material didáctico relacionado con la inteligencia artificial parece una tarea enorme, 
+y empiezo a cuestionar si lo que estoy creando tiene sentido. Las métricas de evaluación me parecen ambiguas, y mi 
+plan de recolección de evidencia está lleno de lagunas.</p>
+<p>Al final, lo que presento es algo que siento que solo cumple mínimamente con los requisitos, pero no estoy orgulloso 
+ni convencido de su efectividad. Me preocupa que la experiencia no funcione bien con mis estudiantes y que el esfuerzo 
+realizado no se traduzca en resultados positivos.</p>
+<p><strong>Semestre de Implementación y Recolección de Evidencia</strong></p>
+<p>Durante el semestre siguiente, mis temores se confirman. La experiencia de aprendizaje que diseñé no tiene el impacto 
+esperado en mis estudiantes. Algunos estudiantes se confunden con las herramientas tecnológicas, mientras que otros 
+simplemente no se involucran. La recolección de evidencia es desorganizada y difícil, y me siento frustrado porque 
+los resultados no muestran el éxito que esperaba (?).</p>
+<p>Empiezo a pensar que todo este enfoque de integrar tecnologías emergentes fue un error, y me pesa el tiempo invertido 
+sin sentir que logré algo significativo.</p>
+<p><strong>Fase 4: Share (Compartir)</strong></p>
+<p>Llego a la fase final desmotivado y con pocas ganas de compartir mi experiencia. Veo que otros profesores presentan 
+proyectos aparentemente exitosos, y siento que mi trabajo palidece en comparación. Expongo mis resultados, pero con 
+la sensación de que fracasé. La retroalimentación que recibo es constructiva, pero no me ayuda a sentirme mejor 
+porque sigo pensando que podría haber hecho las cosas de manera diferente.</p>
+<p>Al final del curso, contribuyo mi experiencia al repositorio, pero no puedo evitar sentir que no aporté nada 
+realmente valioso. Salgo del curso con una sensación de decepción y me pregunto si valió la pena el esfuerzo.</p>
+<p><strong>Reflexión sobre la experiencia</strong></p>
+<p>Engage: la falta de claridad inicial y la dificultad para identificar un desafío relevante hizo que todo el 
+proceso se sintiera forzado.</p>
+<p>Investigate: la complejidad técnica y la falta de recursos adecuados me hicieron sentir perdido y desmotivado.</p>
+<p>Act: la presión de entregar algo funcional llevó a un diseño que no cumplió con mis expectativas ni las de mis 
+estudiantes.</p>
+<p>Share: compartir una experiencia que no tuvo el impacto esperado fue desmoralizador y me dejó con dudas sobre 
+mi capacidad para aplicar esta metodología en el futuro.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
